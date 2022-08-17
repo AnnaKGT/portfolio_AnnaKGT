@@ -1,9 +1,61 @@
+:root {
+  --dark-font: #090a1a;
+  --light-font: #dde2fa;
+  --primary-color: #647bfd;
+  --background-light: #cbd2fe;
+  --heading-font: "Playfair Display", serif;
+  --body-font: "Raleway", sans-serif;
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--body-font);
+  color: var(--dark-font);
 }
 
 h1 {
-  color: white;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font);
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.firstScreen h1,
+h2,
+h3 {
+  padding-left: 10px;
+}
+
+.firstScreen {
+  background-color: var(--background-light);
+  padding: 100px 0px;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.hello {
+  color: var(--light-font);
+  font-size: 148px;
   font-weight: bold;
+  line-height: 1em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: var(--primary-color);
+  color: var(--light-font);
+  font-size: 24px;
+  margin: 25px 10px;
+  padding: 10px 20px;
 }
