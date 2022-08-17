@@ -33,7 +33,7 @@ h3 {
 
 .firstScreen {
   background-color: var(--background-light);
-  padding: 100px 0px;
+  padding: 130px 10px;
 }
 
 .hero {
@@ -55,7 +55,8 @@ h3 {
 .btn-custom {
   background-color: var(--primary-color);
   color: var(--light-font);
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 27px;
   margin: 25px 10px;
-  padding: 10px 20px;
+  padding: 15px 30px;
 }
