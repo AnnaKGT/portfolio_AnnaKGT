@@ -1,8 +1,11 @@
 :root {
   --dark-font: #090a1a;
-  --light-font: #dde2fa;
+  /* --light-font: #dde2fa;
   --primary-color: #647bfd;
-  --background-light: #cbd2fe;
+  --background-light: #cbd2fe; */
+  --light-font: #b7cafa;
+  --primary-color: #0b1223;
+  --background-light: #a8c1ff;
   --heading-font: "Playfair Display", serif;
   --body-font: "Raleway", sans-serif;
 }
@@ -51,6 +54,16 @@ p {
   margin: 0px auto;
 }
 
+.photo {
+  background-color: var(--primary-color);
+}
+
+.hero img {
+  height: 500px;
+  margin-left: 30px;
+  background-color: var(--primary-color);
+}
+
 .block-title {
   color: var(--light-font);
   font-size: 120px;
@@ -68,7 +81,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   margin: 25px 10px;
-  padding: 15px 30px;
+  padding: 20px 40px;
 }
 
 .content {
