@@ -1,11 +1,11 @@
 :root {
   --dark-font: #090a1a;
-  /* --light-font: #dde2fa;
+  --light-font: #dde2fa;
   --primary-color: #647bfd;
-  --background-light: #cbd2fe; */
-  --light-font: #b7cafa;
+  --background-light: #cbd2fe;
+  /* --light-font: #b7cafa;
   --primary-color: #0b1223;
-  --background-light: #a8c1ff;
+  --background-light: #a8c1ff; */
   --heading-font: "Playfair Display", serif;
   --body-font: "Raleway", sans-serif;
 }
