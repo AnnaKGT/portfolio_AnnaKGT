@@ -42,7 +42,7 @@ p {
 
 .firstScreen,
 .container-content {
-  padding: 130px 10px;
+  padding: 70px 10px;
 }
 
 .firstScreen {
@@ -107,14 +107,20 @@ p {
   margin: 70px 20px;
 }
 
-.container-content h1 {
+.content h1 {
   font-size: 48px;
   line-height: 1.2;
 }
 
-.container-content h2 {
+.content h2 {
   font-size: 24px;
   line-height: 1.2;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .about-section-img img {
