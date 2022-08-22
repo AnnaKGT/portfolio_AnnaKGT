@@ -36,9 +36,21 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <a href="about.html">About</a>
-    <a href="work.html">Work</a>
-    <a href="contact.html">Contact</a>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <h2 class="d-none d-md-block">Anna KGT</h2>
+          <h2 class="d-block d-md-none">AK</h2>
+        </a>
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="firstScreen">
       <div class="container hero">
         <div class="row">
@@ -55,25 +67,29 @@
           </div>
           <!-- <div class="col photo">
             <img
-              src="/images/my_photo.png"
+              src="images/my_photo_v2.jpg"
               alt="Anna Kohut"
-              class="img-fluid"
+              class="img-fluid hero-photo"
             />
           </div> -->
         </div>
       </div>
     </div>
-    <div class="hero-content">
+    <div class="hero-content container">
       <div class="block-title mb-5">PROJECTS</div>
-      <div class="container">
+      <div class="hero-content-projects">
         <div class="row mb-5">
           <div class="col d-none d-lg-block project-img">
-            <img src="images/kyiv.png" alt="Kyiv" class="img-fluid mt-3" />
+            <img
+              src="images/kyiv.png"
+              alt="Kyiv"
+              class="img-fluid mt-3 img-projects"
+            />
           </div>
           <div class="col">
             <div class="project-description-right">
-              <h2 class="mb-3">Welcome to Kyiv</h2>
-              <p class="mb-2 text-muted">
+              <h2 class="mb-4">Welcome to Kyiv</h2>
+              <p class="mb-4 text-muted">
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast of the Semantics,
@@ -89,8 +105,8 @@
         <div class="row mb-5">
           <div class="col">
             <div class="project-description-left">
-              <h2 class="mb-3">Weather App</h2>
-              <p class="mb-2 text-muted">
+              <h2 class="mb-4">Weather App</h2>
+              <p class="mb-4 text-muted">
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast of the Semantics,
@@ -108,7 +124,7 @@
             <img
               src="images/weather.png"
               alt="Weather forecast"
-              class="img-fluid"
+              class="img-fluid img-projects"
             />
           </div>
         </div>
@@ -118,13 +134,13 @@
             <img
               src="images/dictionary.png"
               alt="Dictionary"
-              class="img-fluid"
+              class="img-fluid img-projects"
             />
           </div>
           <div class="col">
             <div class="project-description-right">
-              <h2 class="mb-3">Dictionary App</h2>
-              <p class="mb-2 text-muted">
+              <h2 class="mb-4">Dictionary App</h2>
+              <p class="mb-4 text-muted">
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
                 they live in Bookmarksgrove right at the coast of the Semantics,
