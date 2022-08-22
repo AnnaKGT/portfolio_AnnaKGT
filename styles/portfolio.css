@@ -40,6 +40,25 @@ p {
   padding-left: 10px;
 }
 
+.contact {
+  padding: 30px 0;
+  max-width: 900px;
+}
+
+.contact-icon {
+  font-size: 44px;
+  color: var(--primary-color);
+}
+
+.link-contact {
+  text-decoration: none;
+  color: var(--dark-font);
+}
+
+.contact-item {
+  margin-left: 10px;
+}
+
 .firstScreen,
 .container-content {
   padding: 70px 10px;
