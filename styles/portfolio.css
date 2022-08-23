@@ -214,6 +214,10 @@ a:hover {
     padding: 50px 10px;
   }
 
+  .content {
+    margin: 50px 10px;
+  }
+
   .block-title {
     font-size: 60px;
   }
