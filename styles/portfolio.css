@@ -48,6 +48,56 @@ a {
   color: var(--dark-font);
 }
 
+.first-screen {
+  background-color: var(--background-light);
+  padding: 70px 0 30px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.block-title {
+  color: var(--light-font);
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.btn-custom {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 15px 10px;
+  padding: 15px 40px;
+}
+
+.btn-custom-outline {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 25px 10px;
+  padding: 15px 30px;
+  border: 1px solid var(--dark-font);
+}
+
+.project-card {
+  background-color: var(--background-light);
+  padding: 10px;
+}
+
+.project-description h2 {
+  font-size: 52px;
+}
+
+.project-description {
+  padding: 100px 50px 0;
+}
+
+.content {
+  margin: 70px 20px;
+}
+
 .contact {
   padding: 30px 0;
   max-width: 900px;
@@ -67,72 +117,6 @@ a {
   margin-left: 10px;
 }
 
-.firstScreen {
-  padding: 70px 10px;
-}
-
-.firstScreen {
-  background-color: var(--background-light);
-}
-
-.hero {
-  margin: 0px auto;
-}
-
-.block-title {
-  color: var(--light-font);
-  font-size: 120px;
-  font-weight: bold;
-  line-height: 1em;
-}
-
-.name {
-  font-weight: bold;
-}
-
-.btn-custom {
-  background-color: var(--primary-color);
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  margin: 15px 10px;
-  padding: 15px 40px;
-}
-
-.hero-content {
-  margin: 70px auto;
-  padding: 0 10px;
-}
-
-.project-card {
-  background-color: var(--background-light);
-  padding: 10px;
-}
-
-.project-description h2 {
-  font-size: 52px;
-}
-
-.btn-custom-outline {
-  font-size: 18px;
-  line-height: 27px;
-  margin: 25px 10px;
-  padding: 15px 30px;
-  border: 1px solid var(--dark-font);
-}
-
-.project-description {
-  padding: 100px 50px 0;
-}
-
-.content {
-  margin: 70px 20px;
-}
-
-.about-section-img img {
-  max-height: 500px;
-}
-
 nav a.active,
 a:hover {
   color: var(--light-font);
@@ -145,12 +129,20 @@ a:hover {
     text-align: center;
   }
 
-  h2 {
+  h1 {
     font-size: 36px;
-    line-height: 1.6;
+    line-height: 1.2;
   }
 
-  .intro,
+  h2 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .work-title {
+    font-size: 26px;
+  }
+
   .container-content {
     text-align: center;
   }
@@ -158,6 +150,10 @@ a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .project-description h2 {
+    font-size: 38px;
   }
 
   .hero-content-projects {
@@ -170,7 +166,7 @@ a:hover {
 }
 
 @media (max-width: 576px) {
-  .firstScreen {
+  .first-screen {
     padding: 50px 10px;
   }
 
