@@ -17,16 +17,18 @@ body {
 
 h1 {
   font-family: var(--heading-font);
-  font-size: 36px;
+  font-size: 48px;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 h3 {
   font-size: 24px;
+  line-height: 1.2;
 }
 
 p {
@@ -132,6 +134,10 @@ nav a {
   padding: 10px;
 }
 
+.project-description h2 {
+  font-size: 52px;
+}
+
 .btn-custom-outline {
   font-size: 18px;
   line-height: 27px;
@@ -146,22 +152,6 @@ nav a {
 
 .content {
   margin: 70px 20px;
-}
-
-.content h1 {
-  font-size: 48px;
-  line-height: 1.2;
-}
-
-.content h2 {
-  font-size: 24px;
-  line-height: 1.2;
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 700;
 }
 
 .about-section-img img {
@@ -190,8 +180,7 @@ a:hover {
     text-align: center;
   }
 
-  .project-description-left,
-  .project-description-right {
+  .project-description {
     padding: 0;
     text-align: center;
   }
