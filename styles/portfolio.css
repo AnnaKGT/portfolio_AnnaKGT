@@ -3,9 +3,9 @@
   /* --light-font: #dde2fa;
   --primary-color: #647bfd;
   --background-light: #cbd2fe; */
-  --light-font: #cadafd;
+  --light-font: #e5ecfc;
   --primary-color: #0b1223;
-  --background-light: #91b0ff;
+  --background-light: #90b1fd;
   --heading-font: "Playfair Display", serif;
   --body-font: "Raleway", sans-serif;
 }
@@ -51,6 +51,11 @@ a {
 
 .first-screen {
   background-color: var(--background-light);
+  background-image: radial-gradient(
+    ellipse farthest-corner at 0 120%,
+    var(--background-light) 70%,
+    var(--light-font) 70%
+  );
   padding: 70px 20px 30px;
 }
 
@@ -59,10 +64,11 @@ a {
 }
 
 .block-title {
-  color: var(--light-font);
+  color: var(--dark-font);
   font-size: 120px;
   font-weight: bold;
   line-height: 1em;
+  opacity: 0.07;
 }
 
 .btn-custom {
