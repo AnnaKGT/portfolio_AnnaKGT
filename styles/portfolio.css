@@ -59,7 +59,7 @@ a {
 }
 
 .second-screen {
-  background: linear-gradient(178deg, var(--background-light) 0.5%, white 100%);
+  background: linear-gradient(180deg, var(--background-light) 0%, white 100%);
 }
 
 .name {
@@ -72,6 +72,20 @@ a {
   font-weight: bold;
   line-height: 1em;
   opacity: 0.1;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+
+@keyframes slidein {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .btn-custom {
@@ -94,6 +108,10 @@ a {
 .project-card {
   background-color: var(--background-light);
   padding: 10px;
+}
+
+.project-card:hover {
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.05);
 }
 
 .project-description h2 {
