@@ -3,9 +3,8 @@
   /* --light-font: #dde2fa;
   --primary-color: #647bfd;
   --background-light: #cbd2fe; */
-  --light-font: #e5ecfc;
   --primary-color: #0b1223;
-  --background-light: #90b1fd;
+  --background-light: #eaecf4;
   --heading-font: "Playfair Display", serif;
   --body-font: "Raleway", sans-serif;
 }
@@ -53,10 +52,14 @@ a {
   background-color: var(--background-light);
   background-image: radial-gradient(
     ellipse farthest-corner at 0 120%,
-    var(--background-light) 70%,
-    var(--light-font) 70%
+    var(--background-light) 72%,
+    white 72%
   );
   padding: 70px 20px 30px;
+}
+
+.second-screen {
+  background: linear-gradient(178deg, var(--background-light) 0.5%, white 100%);
 }
 
 .name {
@@ -68,14 +71,14 @@ a {
   font-size: 120px;
   font-weight: bold;
   line-height: 1em;
-  opacity: 0.07;
+  opacity: 0.1;
 }
 
 .btn-custom {
   background-color: var(--primary-color);
   color: white;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 32px;
   margin: 15px 10px;
   padding: 15px 40px;
 }
@@ -102,7 +105,7 @@ a {
 }
 
 .content {
-  margin: 70px 20px;
+  padding: 70px 0px;
 }
 
 .contact {
@@ -169,7 +172,7 @@ footer .social-links a:hover {
 
 nav a.active,
 a:hover {
-  color: var(--light-font);
+  color: var(--primary-color);
   transition: all 150ms ease-in-out;
 }
 
@@ -225,7 +228,7 @@ a:hover {
   }
 
   .content {
-    margin: 50px 10px;
+    padding: 50px 0;
   }
 
   .block-title {
