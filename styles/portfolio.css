@@ -105,6 +105,10 @@ a {
   border: 1px solid var(--dark-font);
 }
 
+.btn-custom-outline:hover {
+  background-color: var(--background-light);
+}
+
 .project-card {
   background-color: var(--background-light);
   padding: 10px;
@@ -137,12 +141,20 @@ a {
 }
 
 .link-contact {
+  align-self: center;
+  max-width: 200px;
+  padding: 55px 0px;
+  margin: 0 30px;
+  border-radius: 50%;
+}
+
+.contact-item {
   text-decoration: none;
   color: var(--dark-font);
 }
 
-.contact-item {
-  margin-left: 10px;
+.link-contact:hover {
+  background-color: var(--background-light);
 }
 
 footer {
