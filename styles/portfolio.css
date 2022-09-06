@@ -68,10 +68,10 @@ a {
 
 .block-title {
   color: var(--dark-font);
+  opacity: 0.1;
   font-size: 120px;
   font-weight: bold;
   line-height: 1em;
-  opacity: 0.1;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
@@ -140,9 +140,9 @@ a {
 }
 
 .about-skills {
+  color: var(--dark-font);
   font-size: 64px;
   line-height: 1.2;
-  color: var(--primary-color);
   text-align: center;
 }
 
@@ -152,6 +152,8 @@ a {
 }
 
 .running-line-container {
+  /* background-color: var(--background-light); */
+  /* padding: 8px 4px; */
   overflow: hidden;
   height: 100px;
   position: relative;
@@ -160,12 +162,12 @@ a {
 .running-line {
   overflow: hidden;
   position: absolute;
-  animation: runningLine 30s infinite linear forwards;
+  animation: runningLine 25s infinite linear forwards;
 }
 
 .second-part {
   transform: translate(100%, 0);
-  animation: 30s runningLine 15s infinite linear forwards;
+  animation: 25s runningLine 12.5s infinite linear forwards;
 }
 
 @keyframes runningLine {
