@@ -253,7 +253,7 @@ a:hover {
   transition: all 150ms ease-in-out;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   .block-title {
     font-size: 96px;
     text-align: center;
@@ -295,25 +295,7 @@ a:hover {
   }
 
   .container-content {
-    padding: 0;
-  }
-
-  .about-skills-name {
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 576px) {
-  .first-screen {
-    padding: 50px 10px;
-  }
-
-  .content {
-    padding: 50px 0;
-  }
-
-  .block-title {
-    font-size: 60px;
+    padding: 4px;
   }
 
   .about-skills-name {
@@ -328,5 +310,19 @@ a:hover {
 
   .running-line-container {
     height: 130px;
+  }
+}
+
+@media (max-width: 576px) {
+  .first-screen {
+    padding: 50px 10px;
+  }
+
+  .content {
+    padding: 50px 0;
+  }
+
+  .block-title {
+    font-size: 60px;
   }
 }
