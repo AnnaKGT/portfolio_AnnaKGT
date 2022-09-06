@@ -135,6 +135,10 @@ a {
   max-width: 900px;
 }
 
+.about-first-screen {
+  margin-bottom: 80px;
+}
+
 .about-skills {
   font-size: 64px;
   line-height: 1.2;
@@ -144,6 +148,38 @@ a {
 
 .about-skills-name {
   font-size: 18px;
+  padding: 0 30px;
+}
+
+.running-line-container {
+  overflow: hidden;
+  height: 100px;
+  position: relative;
+}
+
+.running-line {
+  overflow: hidden;
+  position: absolute;
+  animation: runningLine 30s infinite linear forwards;
+}
+
+.second-part {
+  transform: translate(100%, 0);
+  animation: 30s runningLine 15s infinite linear forwards;
+}
+
+@keyframes runningLine {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
 .contact-icon {
