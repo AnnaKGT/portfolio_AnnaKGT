@@ -135,6 +135,17 @@ a {
   max-width: 900px;
 }
 
+.about-skills {
+  font-size: 64px;
+  line-height: 1.2;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.about-skills-name {
+  font-size: 18px;
+}
+
 .contact-icon {
   font-size: 44px;
   color: var(--primary-color);
