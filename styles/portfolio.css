@@ -139,6 +139,10 @@ a {
   margin-bottom: 80px;
 }
 
+.about-summary {
+  max-width: 630px;
+}
+
 .about-skills {
   color: var(--dark-font);
   font-size: 64px;
@@ -281,6 +285,11 @@ a:hover {
 
   .container-content {
     text-align: center;
+  }
+
+  .container-content ul,
+  .skills-title {
+    text-align: left;
   }
 
   .project-description {
