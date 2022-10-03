@@ -110,12 +110,19 @@ a {
 }
 
 .project-card {
-  background-color: var(--background-light);
+  background-color: white;
+  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.05);
   padding: 10px;
 }
 
+.project-card img {
+  height: 400px;
+  margin: 0 auto;
+}
+
 .project-card:hover {
-  box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+  cursor: pointer;
 }
 
 .project-description h2 {
@@ -171,16 +178,22 @@ a {
 
 .second-part {
   transform: translate(100%, 0);
-  animation: 30s runningLine 15s infinite linear forwards;
+  animation: 60s runningLine_secondPart 0s infinite linear forwards;
 }
 
 @keyframes runningLine {
   0% {
-    transform: translate(100%, 0);
+    transform: translate(0, 0);
   }
 
-  50% {
-    transform: translate(0, 0);
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@keyframes runningLine_secondPart {
+  0% {
+    transform: translate(100%, 0);
   }
 
   100% {
