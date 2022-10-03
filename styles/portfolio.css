@@ -272,7 +272,7 @@ a:hover {
   transition: all 150ms ease-in-out;
 }
 
-@media (max-width: 912px) {
+@media (max-width: 992px) {
   .block-title {
     font-size: 96px;
     text-align: center;
@@ -306,12 +306,36 @@ a:hover {
   }
 
   .project-description {
-    padding: 0;
+    border-radius: 8px;
+    padding: 30px 15px;
     text-align: center;
+    color: var(--dark-font);
   }
 
   .project-description h2 {
     font-size: 38px;
+  }
+
+  .project-description p {
+    font-weight: 600;
+  }
+
+  .dictionary-project {
+    background: no-repeat center/100% url(/images/dictionary_bg.png)
+      var(--background-light);
+    background-position: 0% 0%;
+  }
+
+  .weather-project {
+    background: no-repeat center/100% url(/images/weather_bg.png)
+      var(--background-light);
+    background-position: 0% 0%;
+  }
+
+  .weather-project-2 {
+    background: no-repeat center/100% url(/images/weather_2_bg.png)
+      var(--background-light);
+    background-position: 0% 0%;
   }
 
   .hero-content-projects {
