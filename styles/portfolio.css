@@ -170,7 +170,8 @@ a {
   position: relative;
 }
 
-.running-line {
+.running-line,
+.second-part {
   overflow: hidden;
   position: absolute;
   animation: runningLine 30s infinite linear forwards;
@@ -178,22 +179,16 @@ a {
 
 .second-part {
   transform: translate(100%, 0);
-  animation: 60s runningLine_secondPart 0s infinite linear forwards;
+  animation: 30s runningLine 15s infinite linear forwards;
 }
 
 @keyframes runningLine {
   0% {
-    transform: translate(0, 0);
-  }
-
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
-
-@keyframes runningLine_secondPart {
-  0% {
     transform: translate(100%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
   }
 
   100% {
