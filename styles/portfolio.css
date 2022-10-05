@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -130,7 +130,8 @@ a {
 }
 
 .project-description {
-  padding: 100px 50px 0;
+  vertical-align: middle;
+  padding: 150px 70px 0;
 }
 
 .content {
@@ -287,6 +288,13 @@ a:hover {
     font-size: 16px;
   }
 
+  .btn-custom-outline {
+    font-size: 16px;
+    line-height: 1;
+    margin: 16px 10px;
+    padding: 12px 25px;
+  }
+
   .work-title {
     font-size: 26px;
   }
@@ -315,22 +323,26 @@ a:hover {
     font-weight: 600;
   }
 
+  .dictionary-project,
+  .weather-project,
+  .weather-project-2 {
+    background-position: 0% 0%;
+    margin-top: 16px;
+  }
+
   .dictionary-project {
     background: no-repeat center/100% url(/images/dictionary_bg.png)
       var(--background-light);
-    background-position: 0% 0%;
   }
 
   .weather-project {
     background: no-repeat center/100% url(/images/weather_bg.png)
       var(--background-light);
-    background-position: 0% 0%;
   }
 
   .weather-project-2 {
     background: no-repeat center/100% url(/images/weather_2_bg.png)
       var(--background-light);
-    background-position: 0% 0%;
   }
 
   .hero-content-projects {
