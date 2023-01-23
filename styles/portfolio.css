@@ -135,7 +135,7 @@ a {
 }
 
 .content {
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 
 .contact {
@@ -153,13 +153,13 @@ a {
 
 .about-skills {
   color: var(--dark-font);
-  font-size: 64px;
-  line-height: 1.2;
+  font-size: 48px;
+  /* line-height: 1.2; */
   text-align: center;
 }
 
 .about-skills-name {
-  font-size: 18px;
+  font-size: 16px;
   padding: 0 30px;
 }
 
@@ -320,7 +320,7 @@ a:hover {
   }
 
   .project-description p {
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .dictionary-project,
@@ -342,6 +342,16 @@ a:hover {
 
   .weather-project-2 {
     background: no-repeat center/100% url(/images/weather_2_bg.png)
+      var(--background-light);
+  }
+
+  .cp-project {
+    background: no-repeat center/100% url(/images/course_platform_bg.png)
+      var(--background-light);
+  }
+
+  .ph-project {
+    background: no-repeat center/100% url(/images/place_hunt_bg.png)
       var(--background-light);
   }
 
