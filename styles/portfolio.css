@@ -48,6 +48,11 @@ a {
   color: var(--dark-font);
 }
 
+.logo {
+  margin: 0 12px;
+  width: 50px;
+}
+
 .first-screen {
   background-color: var(--background-light);
   background-image: radial-gradient(
