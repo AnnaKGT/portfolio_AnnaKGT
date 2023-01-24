@@ -360,6 +360,11 @@ a:hover {
       var(--background-light);
   }
 
+  .jl-project {
+    background: no-repeat center/100% url(/images/job_listing_bg.png)
+      var(--background-light);
+  }
+
   .hero-content-projects {
     margin: 0;
   }
