@@ -63,6 +63,10 @@ a {
   padding: 70px 20px 30px;
 }
 
+.hero-image {
+  width: 50vw;
+}
+
 .second-screen {
   background: linear-gradient(180deg, var(--background-light) 0%, white 100%);
 }
@@ -291,6 +295,10 @@ a:hover {
 
   p {
     font-size: 16px;
+  }
+
+  .hero-image {
+    width: 80vw;
   }
 
   .btn-custom-outline {
