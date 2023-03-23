@@ -100,22 +100,43 @@ a {
 .btn-custom {
   background-color: var(--primary-color);
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 32px;
   margin: 15px 10px;
   padding: 15px 40px;
 }
 
 .btn-custom-outline {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 14px;
   margin: 25px 10px;
-  padding: 15px 30px;
-  border: 1px solid var(--dark-font);
+  padding: 8px 12px;
+  background-color: var(--background-light);
 }
 
 .btn-custom-outline:hover {
-  background-color: var(--background-light);
+  border: 1px solid var(--dark-font);
+}
+
+.project-item {
+  border: 1px solid var(--background-light);
+  border-radius: 8px;
+  box-shadow: 0px 5px 24px var(--background-light);
+  align-items: center;
+}
+
+.work-title {
+  margin: 0 0 32px;
+  /* text-align: center; */
+  opacity: 80%;
+  width: 580px;
+}
+
+.project-img {
+  padding: 0;
+}
+
+.project-img img {
+  object-fit: cover;
 }
 
 .project-card {
@@ -135,12 +156,13 @@ a {
 }
 
 .project-description h2 {
-  font-size: 52px;
+  font-size: 32px;
 }
 
 .project-description {
+  margin: 0 auto;
   vertical-align: middle;
-  padding: 150px 70px 0;
+  width: 80%;
 }
 
 .content {
@@ -306,10 +328,6 @@ a:hover {
     line-height: 1;
     margin: 16px 10px;
     padding: 12px 25px;
-  }
-
-  .work-title {
-    font-size: 26px;
   }
 
   .container-content {
