@@ -120,6 +120,25 @@ a {
   border: 1px solid var(--dark-font);
 }
 
+.float-contact {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  font-size: 18px;
+  background-color: var(--primary-color);
+}
+
+.float-contact a {
+  color: var(--background-light);
+  padding: 10px 10px;
+}
+
+.float-contact a:hover {
+  background-color: var(--background-light);
+  color: var(--primary-color);
+}
+
 .project-item {
   border: 1px solid var(--background-light);
   border-radius: 8px;
