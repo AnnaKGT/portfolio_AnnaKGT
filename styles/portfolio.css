@@ -1,8 +1,5 @@
 :root {
   --dark-font: #090a1a;
-  /* --light-font: #dde2fa;
-  --primary-color: #647bfd;
-  --background-light: #cbd2fe; */
   --primary-color: #0b1223;
   --background-light: #eaecf4;
   --accent-color: #ecb8d5;
@@ -27,22 +24,14 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-p,
-li {
   font-size: 16px;
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
-  padding-left: 10px;
+p,
+ul {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 a {
@@ -225,7 +214,7 @@ a {
 
 .project-tools i {
   font-size: 24px;
-  margin: 8px 4px;
+  margin: 8px 0;
 }
 
 .content {
