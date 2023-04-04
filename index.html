@@ -110,22 +110,40 @@
       <div class="container-content container">
         <div class="first-screen-content">
           <div class="row">
-            <div class="col">
-              <div class="block-title mb-4">HELLO</div>
-              <h1 class="mb-3">I am, <span class="name">Anna Kohut</span></h1>
-              <h2 class="mb-1">Web Developer</h2>
-              <p class="mb-4">Based in Kyiv, Ukraine</p>
-              <div>
-                <a
-                  href="/contact.html"
-                  class="btn btn-custom shadow-sm rounded mb-5"
-                  title="Contacts"
-                  >Contact me</a
-                >
+            <div class="col d-flex flex-column justify-content-center">
+              <!-- <div class="block-title mb-4">HELLO</div> -->
+              <h1 class="mb-3">Web Developer</h1>
+              <p class="mb-4 text-muted">
+                I'm <span class="name">Anna Kohut</span>, a Front-End and
+                No-Code Web Developer with a passion for creating effective web
+                applications and a commitment to learning and self-development.
+                <br />
+                I can help your business find the best solutions and reach its
+                goals.
+              </p>
+              <div
+                class="d-flex justify-content-center justify-content-lg-start"
+              >
+                <div>
+                  <a
+                    href="/work.html"
+                    class="btn btn-custom shadow-sm rounded"
+                    title="Contacts"
+                    >View my work</a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="/contact.html"
+                    class="btn btn-custom-outline shadow-sm rounded ms-4"
+                    title="Contacts"
+                    >Contact me</a
+                  >
+                </div>
               </div>
             </div>
 
-            <div class="col">
+            <div class="col d-lg-flex d-none">
               <img
                 class="hero-image"
                 src="images/hero_image_1.svg"
@@ -137,7 +155,16 @@
       </div>
     </div>
 
-    <div class="second-screen">
+    <div class="second-block">
+      <div class="container-content container">
+        <div class="content">
+          <!-- <div class="block-title mb-5">SERVICES</div> -->
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <div class="third-block">
       <div class="container-content container">
         <div class="content">
           <div class="block-title mb-5">PROJECTS</div>
@@ -158,67 +185,85 @@
                 </a>
               </div>
             </div> -->
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://projecttasky.bubbleapps.io/version-test"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Tasky PM"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://projecttasky.bubbleapps.io/version-test"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Tasky PM"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/tasky.png"
+                    src="images/tasky_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Tasky PM"
                   />
-                  <h3 class="text-center m-0">Project Manager</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with Bubble.io
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Project Manager</h2>
+                    <p class="text-muted">
+                      Designing and developing a web application that helps
+                      teams to manage their projects.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
 
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://course-platform-cp.bubbleapps.io/version-test/home"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Course Platform"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://course-platform-cp.bubbleapps.io/version-test/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Course Platform"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/course_platform.png"
+                    src="images/course_platform_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Course platform"
                   />
-                  <h3 class="text-center m-0">Course Platform</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with Bubble.io and Canvas
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Course Platform</h2>
+                    <p class="text-muted">
+                      Developing an online learning platform that enables users
+                      to create and share courses.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
 
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://job-listing-kgt.bubbleapps.io/version-test/search"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Job listing"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://job-listing-kgt.bubbleapps.io/version-test/search"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Job listing"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/job_listing.png"
+                    src="images/job_listing_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Course platform"
                   />
-                  <h3 class="text-center m-0">Job Listing</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with Bubble.io and Canvas
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Job Listing</h2>
+                    <p class="text-muted">
+                      Building a job listing app for companies to post vacancies
+                      and applicants to search and apply.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
 
             <!-- <div class="col-lg-4 mb-5">
@@ -242,67 +287,85 @@
               </div>
             </div> -->
 
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://storied-kringle-70168d.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Dictionary App"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://storied-kringle-70168d.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Dictionary App"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/dictionary.png"
+                    src="images/dictionary_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Dictionary"
                   />
-                  <h3 class="text-center m-0">Dictionary App</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with HTML, CSS, and React
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Dictionary App</h2>
+                    <p class="text-muted">
+                      Designing and developing a Dictionary app that allows
+                      users to search for word definitions.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
 
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://beautiful-bienenstitch-f629f8.netlify.app/"
-                  title="Forecast weather 2.0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://beautiful-bienenstitch-f629f8.netlify.app/"
+                title="Forecast weather 2.0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/weather_2.png"
+                    src="images/weather_2_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Weather App"
                   />
-                  <h3 class="text-center m-0">Weather App 2.0</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with HTML, CSS, and React
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Weather App 2.0</h2>
+                    <p class="text-muted">
+                      Building a Weather app that offers current and forecasted
+                      weather information for any city.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
 
-            <div class="col-lg-4 mb-5">
-              <div class="project-card rounded">
-                <a
-                  href="https://glittery-tiramisu-e1b527.netlify.app/"
-                  title="Forecast weather"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+            <div class="col-lg-4 col-md-6 mb-5">
+              <a
+                href="https://glittery-tiramisu-e1b527.netlify.app/"
+                title="Forecast weather"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="project-card rounded">
+                  <div class="project-card-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </div>
                   <img
-                    src="images/weather.png"
+                    src="images/weather_v2.png"
                     class="img-fluid rounded mb-2"
                     alt="Weather App"
                   />
-                  <h3 class="text-center m-0">Weather App</h3>
-                  <p class="text-center mt-1 text-muted">
-                    Build with HTML, CSS, and JavaScript
-                  </p>
-                </a>
-              </div>
+                  <div class="project-card-description">
+                    <h2>Weather App</h2>
+                    <p class="text-muted">
+                      Developing a Weather app for searching detailed weather
+                      information.
+                    </p>
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -311,13 +374,15 @@
 
     <footer class="container">
       <div
-        class="contact-box rounded mb-5 d-none d-lg-flex justify-content-between"
+        class="contact-box rounded mb-5 d-none d-lg-flex justify-content-between align-items-center"
       >
         <div>
           <h4>Work Inquiry</h4>
           <p>Let’s work together and i’ll help you by all my best</p>
         </div>
-        <a href="/contact.html" class="btn btn-custom">Let's talk here</a>
+        <div>
+          <a href="/contact.html" class="btn btn-custom">Contact me</a>
+        </div>
       </div>
       <div class="d-flex justify-content-center mb-4">
         <a href="mailto:apk2911@gmail.com" class="mail-link" title="email"
