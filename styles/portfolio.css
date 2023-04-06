@@ -69,11 +69,10 @@ a {
 
 .service__icon {
   float: left;
-  margin: 12px 12px 12px 0;
+  margin: 8px 12px 8px 0;
 }
 
 .services__content {
-  /* background-color: var(--background-light); */
   border: 1px solid var(--background-light);
   border-radius: 8px;
   box-shadow: var(--card-shadow);
