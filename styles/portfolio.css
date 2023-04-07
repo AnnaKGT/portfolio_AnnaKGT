@@ -238,6 +238,7 @@ a {
 .project-tools img {
   width: auto;
   height: 16px;
+  margin: 12px 0;
 }
 
 .content {
@@ -362,6 +363,10 @@ footer .social-links a {
   background-color: var(--background-light);
   font-size: 18px;
   transition: var(--hover-transition);
+}
+
+.footer__createdBy {
+  font-size: 10px;
 }
 
 footer .social-links a:hover {
