@@ -235,6 +235,11 @@ a {
   margin: 8px 8px 8px 0;
 }
 
+.project-tools img {
+  width: auto;
+  height: 16px;
+}
+
 .content {
   padding: 50px 0px;
 }
