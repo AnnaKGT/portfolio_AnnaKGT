@@ -2,6 +2,7 @@
   --dark-font: #090a1a;
   --primary-color: #0b1223;
   --background-light: #eaecf4;
+  --background-secondary: #eaebe6;
   --accent-color: #ecb8d5;
   --heading-font: "Playfair Display", serif;
   --body-font: "Raleway", sans-serif;
@@ -80,7 +81,11 @@ a {
   margin-bottom: 2rem;
 }
 
-.name {
+.about__greetings {
+  font-weight: normal;
+}
+
+.about__name {
   font-weight: bold;
 }
 
@@ -92,7 +97,7 @@ a {
   line-height: 1em;
   overflow: hidden;
   white-space: nowrap;
-  margin: 0 auto;
+  margin: 30px auto;
   animation-name: slidein;
   animation-duration: 2.7s;
 }
@@ -252,11 +257,17 @@ a {
 }
 
 .about-first-screen {
-  margin-bottom: 80px;
+  margin-bottom: 2rem;
 }
 
 .about-summary {
   max-width: 630px;
+}
+
+.skills {
+  background-color: var(--background-light);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .about-skills {
@@ -272,6 +283,7 @@ a {
 }
 
 .running-line-container {
+  margin-bottom: 2rem;
   overflow: hidden;
   height: 100px;
   position: relative;
@@ -284,9 +296,25 @@ a {
   animation: runningLine 30s infinite linear forwards;
 }
 
+.start-part {
+  overflow: hidden;
+  position: absolute;
+  animation: runningLine_start 15s linear forwards;
+}
+
 .second-part {
   transform: translate(100%, 0);
   animation: 30s runningLine 15s infinite linear forwards;
+}
+
+@keyframes runningLine_start {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
 
 @keyframes runningLine {
@@ -301,6 +329,10 @@ a {
   100% {
     transform: translate(-100%, 0);
   }
+}
+
+.certificate {
+  padding: 4rem 0;
 }
 
 .contact-icon {
@@ -328,7 +360,7 @@ a {
 
 footer {
   margin: 20px 0 0;
-  padding: 30px;
+  /* padding: 30px; */
 }
 footer h4 {
   font-weight: bold;
