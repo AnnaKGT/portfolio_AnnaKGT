@@ -271,7 +271,7 @@ a {
 .skill__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 12px;
+  column-gap: 24px;
   align-items: stretch;
   margin-bottom: 45px;
 }
@@ -399,6 +399,7 @@ a {
 
 footer {
   margin: 20px 0 0;
+
   /* padding: 30px; */
 }
 footer h4 {
@@ -512,12 +513,12 @@ a:hover {
     font-weight: 500;
   }
 
-  .dictionary-project,
+  /* .dictionary-project,
   .weather-project,
   .weather-project-2 {
     background-position: 0% 0%;
     margin-top: 16px;
-  }
+  } */
 
   .container-content {
     padding: 4px;
