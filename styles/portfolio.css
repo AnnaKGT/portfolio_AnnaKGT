@@ -70,7 +70,7 @@ a {
 
 .service__icon {
   float: left;
-  margin: 8px 12px 8px 0;
+  margin: 8px 16px 8px 0;
 }
 
 .services__content {
@@ -114,8 +114,9 @@ a {
 .btn-custom {
   background-color: var(--primary-color);
   color: white;
-  font-size: 18px;
-  padding: 10px 30px;
+  font-size: 16px;
+
+  padding: 8px 16px;
   margin: 15px 0;
   transition: var(--hover-transition);
 }
@@ -123,8 +124,9 @@ a {
 .btn-custom-outline {
   background-color: var(--background-light);
   border: 1px solid var(--background-light);
-  font-size: 18px;
-  padding: 10px 30px;
+  font-size: 16px;
+
+  padding: 8px 16px;
   margin: 15px 0;
   transition: var(--hover-transition);
 }
@@ -480,6 +482,14 @@ a:hover {
     padding: 12px 25px;
   }
 
+  .block-title {
+    font-size: 48px;
+  }
+
+  .content {
+    padding: 24px 0;
+  }
+
   .container-content {
     text-align: center;
   }
@@ -551,14 +561,6 @@ a:hover {
 @media (max-width: 576px) {
   .first-screen {
     padding: 50px 10px;
-  }
-
-  .content {
-    padding: 50px 0;
-  }
-
-  .block-title {
-    font-size: 60px;
   }
 
   .skill__items {
