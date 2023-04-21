@@ -449,9 +449,14 @@ footer .social-links a:hover {
 }
 
 nav a.active,
-a:hover {
+nav a:hover {
   color: var(--accent-color);
   text-decoration: underline;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
   transition: all 150ms ease-in-out;
 }
 
